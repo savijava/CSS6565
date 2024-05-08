@@ -1,0 +1,67 @@
+.body1{
+    background-image: url(./shara\ desert.jpg);
+
+}
+.logo1{
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.nav1{
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-style: oblique; */
+    /* justify-content: space-between; */
+}
+.nav2{
+    display: flex;
+    /* border: 2px solid; */
+    width: 300px;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    color: white;
+    margin-left: 600px;
+    align-items: center;
+    /* margin-top: 15px; */
+}
+.cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+    row-gap: 10px;
+}
+.card1,.card2,.card3,.card4{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-size: cover;
+    border-radius: 10px;
+}
+a{
+    font-size: 15px;
+}
+.inner1{
+    color: white;
+    font-size: 100px;
+}
+.card1{
+    background-image: url(./pic-1.png);
+}
+.card2{
+    background-image: url(./pic-2.png);
+}
+.card3{
+    background-image: url(./pic-3.png);
+}
+.card4{
+    background-image: url(./pic-4.png);
+}
+.sahara1{
+    margin-top: 60px;
+    margin-left: 15px;
+    /* text-align: center; */
+    /* height: 400px;
+    width: 400px; */
+}
